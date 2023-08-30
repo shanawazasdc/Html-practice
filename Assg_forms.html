@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <div>
+        <form action="#">
+            <label for="name">Full name:</label>
+            <input type="text" name="myname" id="name" placeholder="firstname lastname" required>
+            <br>
+            <br>
+            <label for="email">Email address:</label>
+            <input type="email" name="myemail" id="email" placeholder="EMAIL_ADDRESS" required>
+            <br>
+            <br>
+            <label for="tour">Select Tour Package:</label>
+            <select name="tourpack" id="tour" required>
+                <option value="goa">Goa</option>
+                <option value="manali">Manali</option>
+                <option value="maldives">Maldives</option>
+            </select>
+            <br>
+            <br>
+            <label for="date">Arrival Date:</label>
+            <input type="date" name="date" id="date" required placeholder="m/d/y">
+            <br>
+            <br>
+            <label for="persons">Number of persons</label>
+            <input type="number" name="total persons" id="persons" placeholder="unknown_type" required>
+            <br>
+            <br>
+            <label for="avail">what would you want to avail?</label>
+            <br>
+            <label for="boarding">boarding</label>
+            <input type="checkbox" name="boarding" id="avail" required>
+            <br>
+            <label for="fooding">fooding</label>
+            <input type="checkbox" name="fooding" id="avail"required>
+            <br>
+            <label for="sight seeing">sight seeing</label>
+            <input type="checkbox" name="sight seeing" id="avail"required>
+            <br>
+            <br>
+            <label for="discount">discount coupon code</label>
+            <input type="text" name="discount" id="discount" placeholder="unknown_type">
+            <br>
+            <br>
+            <label for="Terms">Terms and conditions</label>
+            <br>
+            <input type="radio" name="terms" id="Terms" required>
+            <label for="agree">I agree</label>
+            <input type="radio" name="terms" id="Terms" required>
+            <label for="disagree">I disagree</label>
+            
+
+            <br>
+            <br>
+            <label for="submit"></label>
+            <button type="submit">complete reservation</button>
+        </form>
+    </div>
+</body>
+</html>

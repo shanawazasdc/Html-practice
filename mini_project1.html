@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <home>
+        <h2>Showing you the world, one country at a time</h2><br>
+        <img src="./airlines.jpg" alt="" height="300px" width="auto">
+        
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam sed enim at dolore molestias odit voluptatum impedit minus veniam dolor. Molestias esse nemo perferendis rerum consequuntur quas qui deleniti. Sapiente adipisci deserunt eos quidem qui debitis, laudantium odio aliquam porro praesentium commodi est sunt, deleniti molestias quam neque dolore nisi temporibus reiciendis iste velit! Praesentium ea necessitatibus aut nihil eum dolor consectetur exercitationem, quam enim mollitia expedita vitae delectus facere, voluptate eligendi architecto omnis ut distinctio repudiandae ipsam eveniet et. Iste, quas aliquam expedita incidunt at sunt. Laudantium voluptates amet, eligendi nulla veritatis maxime, reiciendis esse dolore obcaecati enim dolores!</p><br>
+        <h2>Customer Review</h2>
+ 
+     
+        <form action="#">
+            <label for="customer name">Customer Name:</label>
+            <input type="text" name="customer name" id="customer name" placeholder="Enter your name"><br><br>
+
+            <label for="rating">Rating:</label>
+            <input type="number" name="rating " id="rating" placeholder="ratings out of 5" ><br><br>
+
+            <label for="flight no">Flight Number</label>
+            <input type="text" name="flight no" id="flight no"><br><br>
+
+            <label for="flight date">Flight Date</label>
+            <input type="date" name="date" id="flight date"><br><br>
+
+            <label for="review">Write a review</label><br>
+            <textarea name="review" id="review" cols="40" rows="5"></textarea><br><br>
+
+            <input type="button" value="submit review">
+        </form>
+    </home>
+    <br>
+
+    <flight_section>
+        <h2>Flight Section</h2>
+        <label for="flights">Select: Departure</label>
+        <select name="flights" id="flights">
+            <option value="Hyd">Hyderabad</option>
+            <option value="Hyd">Mumbai</option>
+            <option value="Hyd">Abu Dhabi</option>
+            <option value="Hyd">Saudi</option>
+        </select>
+
+        <label for="flights">Arrival</label>
+        <select name="flights" id="flights">
+            <option value="1">Saudi</option>
+            <option value="1">Abu Dhabi</option>
+            <option value="1">Hyderabad</option>
+            <option value="1">Mubmai</option>
+        </select>
+        <br><br>
+
+        <label for="Departure">Departure Date:</label>
+        <input type="date" name="Departure" id="Departure">
+
+        <label for="Arrival">Arrival Date:</label>
+        <input type="date" name="Arrival" id="Arrival"><br><br>
+
+        <label for="passengers">No of Passengers:</label>
+        <input type="number" name="passengers" id="passengers"><br><br>
+
+        <label for="price">Select Price Range:</label>
+        <input type="range" name="price" id="price" min="10000" max="1000000"><br><br>
+
+        <label for="class">Select Class:</label>
+        <select name="class" id="class">
+            <option value="1">Common</option>
+            <option value="1">Economy</option>
+            <option value="1">Business</option>
+        </select>
+    </flight_section>
+    <br><br>
+
+    <flight_Timings>
+        <table>
+            <caption>Flight Timings</caption>
+            <thead>
+                <tr>
+                    <th>Flight Number</th>
+                    <th>Departure Times</th>
+                    <th>Arrival Times</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2021</td>
+                    <td>10:00</td>
+                    <td>15:00</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>12:00</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>15:00</td>
+                    <td>00:00</td>
+                </tr>
+            </tbody>     
+        </table>
+    </flight_Timings>
+
+
+
+    <aboutus>
+        <h2>About Us</h2>
+        <h3>Overview</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus magnam sed earum perferendis? Magnam fuga debitis culpa eaque repellendus libero alias quaerat nobis tempore iure error repellat, ex impedit beatae.</p>
+        <h3>Company's Commitment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, eveniet! Quos, dolores odit blanditiis soluta rerum illum nesciunt commodi obcaecati debitis quia! Quia veniam similique placeat ratione! Impedit, id quia!</p>
+        <h3>Contact Information</h3>
+        <p>Contact us: +91 9528978560
+        </p>
+        <p>email:airlines.ams@gmail.com</p>
+    </aboutus>
+
+    <destinations>
+        <h2>Popular Destinations</h2>
+       <div> <img src="./img1.jpg" alt="Image" width="250px" height="250px"><br>
+        <p><strong>Agra</strong></p></div>
+        <img src="./img2.jpg" alt="Image" width="250px" height="250px"><br>
+        <!-- <p><strong>Paris</strong></p>
+        <img src="./img3.jpg" alt="Image" width="250px" height="250px"><br>
+        <p><strong>Dubai</strong></p>
+        <img src="./img4.jpg" alt="Image" width="250px" height="250px"><br>
+        <p><strong>Manali</strong></p> -->
+
+    </destinations>
+    <br><br>
+
+    <FAQ>
+        <h2>FAQS</h2>
+        <p><strong>How many people will be on my trip?</strong></p>
+        <p>Good things come in small packages, which is why we keep our group sizes down. 
+            This means we’re small enough to remain flexible as we thread our way through 
+            communities without intimidating the locals. On most of our trips you’ll be 
+            part of an intimate group of 12-16 people, though our group sizes are on 
+            average 10 people. Our Overland trips are in purpose-built vehicles that 
+            can carry up to 24 travellers. Group sizes are displayed on each trip’s 
+            overview page on our website.
+        </p>
+        <p><strong>How many people will be on my trip?</strong></p>
+        <p>Good things come in small packages, which is why we keep our group sizes down. 
+            This means we’re small enough to remain flexible as we thread our way through 
+            communities without intimidating the locals. On most of our trips you’ll be 
+            part of an intimate group of 12-16 people, though our group sizes are on 
+            average 10 people. Our Overland trips are in purpose-built vehicles that 
+            can carry up to 24 travellers. Group sizes are displayed on each trip’s 
+            overview page on our website.
+        </p>
+        <p><strong>How many people will be on my trip?</strong></p>
+        <p>Good things come in small packages, which is why we keep our group sizes down. 
+            This means we’re small enough to remain flexible as we thread our way through 
+            communities without intimidating the locals. On most of our trips you’ll be 
+            part of an intimate group of 12-16 people, though our group sizes are on 
+            average 10 people. Our Overland trips are in purpose-built vehicles that 
+            can carry up to 24 travellers. Group sizes are displayed on each trip’s 
+            overview page on our website.
+        </p>
+        <p><strong>How many people will be on my trip?</strong></p>
+        <p>Good things come in small packages, which is why we keep our group sizes down. 
+            This means we’re small enough to remain flexible as we thread our way through 
+            communities without intimidating the locals. On most of our trips you’ll be 
+            part of an intimate group of 12-16 people, though our group sizes are on 
+            average 10 people. Our Overland trips are in purpose-built vehicles that 
+            can carry up to 24 travellers. Group sizes are displayed on each trip’s 
+            overview page on our website.
+        </p>
+    </FAQ>
+    <hr>
+    <footer>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, adipisci inventore, deserunt doloribus consequatur veritatis accusamus amet excepturi hic at expedita, distinctio eius rerum optio nesciunt sit minus. Sequi in quaerat repellat deserunt porro provident, sit ea tenetur, voluptatem accusantium autem cupiditate incidunt temporibus labore error quae quibusdam blanditiis ab.
+        <br>
+        <p>
+            Contact Us: +91 6456545452 <br>
+            Email:airlies.ams@gamil.com
+        </p>
+    </footer>
+</body>
+</html>
